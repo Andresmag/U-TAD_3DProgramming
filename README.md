@@ -17,5 +17,6 @@ But you should look at it closely because sometimes although it's really similar
   * lib
   * project
   * src
-* Lib folder outside the practices contains the glfw and glm and glew libraries so it must be **included and combined** within the lib folder in **every practice** (I've uploaded it this way not to upload the libraries 4 times). **stb_image.h** is needed from practice 2 onwards (included) and **tinyobjloader library** is needed from practice 3 onwards (included). But it doesn't mind if you add them to practice 1.
+* Lib folder outside the practices contains the glfw and glm and glew libraries so it must be **included and combined** within the lib folder in **every practice** (I've uploaded it this way not to upload the libraries 4 times). **stb_image.h** is needed from practice 2 onwards (included).
+* **tinyobjloader** library is needed from practice 3 onwards (included) in order to read the obj files of the meshes. You can download and see it documentation at its [repository](https://github.com/tinyobjloader/tinyobjloader). Then you just have to include the whole (tiny) folder inside the lib folder of the practice to make it work.
 * To run the code, be sure to **compile it for x64**. Any other way it will fail.
